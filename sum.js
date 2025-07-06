@@ -5,4 +5,4 @@ app.get("/sum", (req, res) => {
   const sum = 5 + 5;
   res.status(200).send("hello world");
 });
-app.listen(8080);
+app.listen(3000);
